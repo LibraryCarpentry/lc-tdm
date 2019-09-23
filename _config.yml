@@ -10,7 +10,7 @@
 carpentry: "lc"
 
 # Overall title for pages.
-title: "Library Carpentry: OCR/Text & Data Mining"
+title: "Library Carpentry: Text & Data Mining"
 
 # Life cycle stage of the lesson
 # possible values: "pre-alpha", "alpha", "beta", "stable"
