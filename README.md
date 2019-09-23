@@ -1,7 +1,7 @@
-# Maintainers for Library Carpentry: OCR/Text & Data Mining
+# Maintainers for Library Carpentry: Text & Data Mining
 
 Maintainers:
-
+Beatrice Alex, Clare Llewellyn, Konrad Foerstner
 
 ## Library Carpentry
 
@@ -10,11 +10,11 @@ Maintainers:
 ## License
 
 All Software, Data, and Library Carpentry instructional material is made available under the [Creative Commons Attribution
-license](https://github.com/LibraryCarpentry/lc-shell/blob/gh-pages/LICENSE.md).
+license](https://github.com/LibraryCarpentry/lc-tdm/blob/gh-pages/LICENSE.md).
 
 ## Contributing
 
-There are many ways to discuss and contribute to Library Carpentry lessons. Visit the lesson [discussion page](https://librarycarpentry.org/lc-shell/discuss/index.html) to learn more. Also see [Contributing](https://github.com/LibraryCarpentry/lc-shell/blob/gh-pages/CONTRIBUTING.md).
+There are many ways to discuss and contribute to Library Carpentry lessons. Visit the lesson [discussion page](https://librarycarpentry.org/lc-tdm/discuss/index.html) to learn more. Also see [Contributing](https://github.com/LibraryCarpentry/lc-tdm/blob/gh-pages/CONTRIBUTING.md).
 
 ## Code of Conduct
 
@@ -26,7 +26,7 @@ Library Carpentry is authored and maintained through issues, commits, and pull r
 
 ## Citation
 
-Library Carpentry: OCR/Text & Data Mining. June 2019. https://librarycarpentry.org/lc-shell/.
+Library Carpentry: Text & Data Mining. June 2019. https://librarycarpentry.org/lc-tdm/.
 
 
 ## Checking and Previewing the Lesson
