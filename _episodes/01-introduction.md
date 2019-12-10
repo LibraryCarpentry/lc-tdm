@@ -15,7 +15,7 @@ keypoints:
 Welcome to this hands-on lesson to learn some text and data mining skills. We will first run through some of the basics that you will need when exploring and analysing text.
 
 ## What is Text Mining?
-TBA
+FIXME
 
 ## Terminology
 
