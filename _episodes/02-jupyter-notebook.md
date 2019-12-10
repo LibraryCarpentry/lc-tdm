@@ -1,7 +1,7 @@
 ---
 title: "Starting Jupyter Notebook"
-teaching: 5
-exercises: 3
+teaching: 10
+exercises: 5
 questions:
 - "What is Jupyter Notebook?"
 objectives:

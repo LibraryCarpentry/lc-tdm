@@ -1,14 +1,22 @@
 ---
-title: "Python Basics"
-teaching: 0
-exercises: 0
+title: "Python Fundamental"
+teaching: 100
+exercises: 20
 questions:
-- "TBA"
+- "How can I create a new variable in Python?"
+- "How do I print the value of a variable?"
+- "How can I create a list and iterate through it?"
+
 objectives:
-- "TBA"
+- "Learn Python fundamentals"
+- "Learn Python syntax"
+- "Run simple python code"
 keypoints:
-- "TBA"
+- "Use ```name = value``` to assign a value to a variable with a specific name in order to record it in memory"
+- "Use the ```print(variable)``` function to print the value of the variable"
+- "Create the list by giving it different values (```list-name['value1','value2','value3']```) and use a for loop to iterate through each value of the list"
 ---
+
 ## Introduction to Python
 
 Python is a programming language. We will use this as a way to interact with and analyse text documents. We can use Python either through the command line in your terminal window, by writing Python scripts or via Jupyter Notebook. In this lesson we will be using it via Jupyter Notebook.
