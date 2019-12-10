@@ -2,11 +2,8 @@
 title: Setup
 ---
 
-# Prerequisites for the Text Mining course
-
-### Prior Knowledge
-
-This course is aimed at participants without any prior experience with text analysis of data sets.  You will benefit from knowing how to start a terminal on your computer, how to run commands on it and how to do basic coding in the programming language python but we will go over each step required in the course for anyone with no previous knowledge of these things.
+# Computer Setup and Software Installs
+This course run is entirely using [Jupyter Notebook](https://jupyter.org).  It is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.  We will therefore only be using the terminal window on your computer for the initial setup and software installation.
 
 ### Terminal Setup
 __Linux:__ Look for Terminal in your applications and click on it to open it.  
