@@ -1,5 +1,5 @@
 ---
-title: "Python Fundamental"
+title: "Python Fundamentals"
 teaching: 100
 exercises: 20
 questions:

@@ -1,5 +1,5 @@
 ---
-title: "Starting Jupyter Notebook"
+title: "Jupyter Notebook"
 teaching: 10
 exercises: 5
 questions:
