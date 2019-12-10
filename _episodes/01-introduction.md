@@ -5,7 +5,7 @@ exercises: 5
 questions:
 - "What is text miming?"
 objectives:
-- "Gain an understanding what text mining is."
+- "Gain a basic understanding what text mining is."
 - "Learn some text and data mining terminology."
 keypoints:
 - "Text mining refers to different methods used for analysing text automatically."
@@ -17,7 +17,7 @@ Welcome to this hands-on lesson to learn some text and data mining skills. We wi
 ## What is Text Mining?
 TBA
 
-## Text Mining Terminology
+## Terminology
 
 To start with here is a bit of basic terminology that will be used in this lesson:
 
@@ -38,6 +38,4 @@ __Corpus:__ a collection of documents.
 > - How many people have used text mining for their work before?
 > - Who wants to use it in future?
 > - What types of text analyses would you want to do?
-{: .challenge}
-
-{% include links.md %}
+{: .discussion}

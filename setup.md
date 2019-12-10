@@ -26,9 +26,10 @@ Windows: install jupyter notebook via the Anaconda prompt
 macOS/Linux: go to a terminal window and run the following command:
 
 
-```python
+~~~
 conda install -c anaconda jupyter
-```
+~~~
+{: .bash}
 
 __3. Install NLTK__
 
@@ -36,9 +37,10 @@ Windows: install NLTK via the Anaconda prompt
 macOS/Linux: run the following command in your terminal:
 
 
-```python
+~~~
 conda install -c anaconda nltk
-```
+~~~
+{: .bash}
 
 __4. Install numpy__
 
@@ -46,9 +48,10 @@ Windows: install numpy via the Anaconda prompt
 macOS/Linux: run the following command in your terminal:
 
 
-```python
+~~~
 conda install numpy
-```
+~~~
+{: .bash}
 
 __5. Install matplotlib__
 
@@ -56,9 +59,10 @@ Windows: install matplotlib via the Anaconda prompt
 macOS/Linux: run the following command in your terminal
 
 
-```python
+~~~
 conda install -c conda-forge matplotlib
-```
+~~~
+{: .bash}
 
 __6. Install wordcloud__
 
@@ -66,9 +70,10 @@ Windows: install wordcloud via the Anaconda prompt
 macOS/Linux: run the following command in your terminal:
 
 
-```python
+~~~
 conda install -c conda-forge wordcloud
-```
+~~~
+{: .bash}
 
 ### Software Installs for Day 2
 
@@ -86,9 +91,10 @@ Windows: install pandas via the Anaconda prompt
 macOS/Linux: run the following command in your terminal:
 
 
-```python
+~~~
 conda install pandas
-```
+~~~
+{: .bash}
 
 __9. Install networkx__
 
@@ -96,8 +102,9 @@ Windows: install networkx via the Anaconda prompt
 macOS/Linux: run the following command in your terminal:
 
 
-```python
+~~~
 conda install networkx
-```
+~~~
+{: .bash}
 
 {% include links.md %}
