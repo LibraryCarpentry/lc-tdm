@@ -71,15 +71,13 @@ lower_humpty_tokens[0:6]
 > Print the 13th token of the nursery rhyme (remember that a list index starts with 0).
 >
 > > ## Answer
-> > ~~~
+> > ~~~python
 > > print(lower_humpty_tokens[12])
 > > ~~~
-> > {: .bash}
-> ~~~
->
+> >     fall
+> 
 >
 > {: .solution}
 {: .challenge}
--->
 
 {% include links.md %}
