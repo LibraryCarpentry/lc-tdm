@@ -3,7 +3,7 @@ title: "Introduction"
 teaching: 10
 exercises: 5
 questions:
-- "What is text miming?"
+- "What is text mining?"
 objectives:
 - "Gain a basic understanding what text mining is."
 - "Learn some text and data mining terminology."
