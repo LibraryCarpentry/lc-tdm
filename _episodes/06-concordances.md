@@ -1,7 +1,7 @@
 ---
 title: "Tokens in Context: Concordance Lists"
-teaching: 10
-exercises: 10
+teaching: 0
+exercises: 0
 questions:
 - "What is a concordance list?"
 - "How can a concordance list be created for a particular search term?"

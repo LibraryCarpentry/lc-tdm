@@ -1,7 +1,7 @@
 ---
 title: "Python Fundamentals"
-teaching: 100
-exercises: 20
+teaching: 0
+exercises: 0
 questions:
 - "How can I create a new variable in Python?"
 - "How do I print the value of a variable?"

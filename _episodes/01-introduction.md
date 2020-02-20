@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-teaching: 10
-exercises: 5
+teaching: 0
+exercises: 0
 questions:
 - "What is text mining?"
 objectives:

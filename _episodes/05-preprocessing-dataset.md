@@ -18,7 +18,7 @@ Text data comes in different forms.  You might want to analyse a document in one
 
 ### Download some data
 
-Firstly, please download a data set and make a note of where it is saved on your computer.  We need the path to dataset in order to load and read it for further processing.
+Firstly, please download a dataset and make a note of where it is saved on your computer.  We need the path to dataset in order to load and read it for further processing.
 
 We will use the Medical History of British India collection provided by the [National Library of Scotland](https://www.nls.uk) as an example:
 
@@ -51,7 +51,7 @@ lower_india_tokens[0:10]
 
 ### Loading and tokenising a corpus
 
-We can do the same for an entire collection of documents (a corpus).  Here we choose a collection of raw text documents in a given directory.  We will use the entire Medical History of British India collection as our data set.
+We can do the same for an entire collection of documents (a corpus).  Here we choose a collection of raw text documents in a given directory.  We will use the entire Medical History of British India collection as our dataset.
 
 To read the text files in this collection we can use the ```PlaintextCorpusReader``` class provided in the ```corpus``` package of NLTK.  You need to specify the collection directory name and a wildcard for which files to read in the directory (e.g. ```.*``` for all files) and the text encoding of the files (in this case ```latin1```).  Using the ```words()``` method provided by NLTK, the text is automatically tokenised and stored in a list of words. As before, we can then lowercase the words in the list.
 

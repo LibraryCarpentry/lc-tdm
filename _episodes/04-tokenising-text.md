@@ -1,7 +1,7 @@
 ---
 title: "Tokenising text"
-teaching: 15
-exercises: 5
+teaching: 0
+exercises: 0
 questions:
 - "What is tokenisation?"
 - "How can a string of raw text be tokenised?"
@@ -75,7 +75,7 @@ lower_humpty_tokens[0:6]
 > > print(lower_humpty_tokens[12])
 > > ~~~
 > >     fall
-> 
+>
 >
 > {: .solution}
 {: .challenge}
