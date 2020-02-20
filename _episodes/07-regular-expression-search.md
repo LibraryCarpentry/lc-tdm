@@ -3,12 +3,12 @@ title: "Searching text using regular expressions"
 teaching: 0
 exercises: 0
 questions:
-- "How can I search for tokens using regular expressions?"
+- "How can I search for tokens in text more flexibly? For example, to find all all mentions of ```woman``` and ```women```."
 objectives:
 - "Learn how to search for tokens in a data set using regular expressions"
 keypoints:
 - "To search for tokens in text using regular expressions you need the ```re``` module and its ```search``` function."
-- "You will need to learn how to construct regular expressions.  E.g. you can use a wildcard ```*``` or you can use a range of letters ```[a-z]``` or numbers [0-9] etc.  Regular expressions can be very powerful if used correctly."
+- "You will need to learn how to construct regular expressions.  E.g. you can use a wildcard ```*``` or you can use a range of letters, e.g. ```[ae]``` (for a or e), ```[a-z]``` (for a to z), or numbers, e.g. ```[0-9]``` (for all single digits) etc.  Regular expressions can be very powerful if used correctly.  To find all mentions of the words ```woman``` or ```women``` you need to use the following regular expression ```wom[ae]n```."
 ---
 
 ## Searching text using regular expressions
