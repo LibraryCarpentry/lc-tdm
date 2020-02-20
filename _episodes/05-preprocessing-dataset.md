@@ -22,12 +22,11 @@ Firstly, please download a data set and make a note of where it is saved on your
 
 We will use the Medical History of British India collection provided by the [National Library of Scotland](https://www.nls.uk) as an example:
 
-https://data.nls.uk/data/digitised-collections/a-medical-history-of-british-india
+[https://data.nls.uk/data/digitised-collections/a-medical-history-of-british-india](https://data.nls.uk/data/digitised-collections/a-medical-history-of-british-india)
 
 This dataset has been made available as part of NLS's DataFoundry platform which provides access to a number of their digitised collections.
 
-We are only interested in the text the Medical History of British India collection for this course so at the bottom of the website, download the "Just the text" data or download it directly at:
-https://nlsfoundry.s3.amazonaws.com/text/nls-text-indiaPapers.zip
+We are only interested in the text the Medical History of British India collection for this course so at the bottom of the website, download the "Just the text" data or download it directly [here](https://nlsfoundry.s3.amazonaws.com/text/nls-text-indiaPapers.zip).
 
 Note that this dataset requires approx. 120 MB of free file space on your computer once it has been unzipped.  Most computers automatically uncompress ```.zip``` files as the one you have downloaded.  If your computer does not do that then right-click on the file and click on uncompress or unzip.
 
