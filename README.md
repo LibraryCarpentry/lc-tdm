@@ -1,7 +1,7 @@
 # Maintainers for Library Carpentry: Text & Data Mining
 
 Maintainers:
-Beatrice Alex, Clare Llewellyn, Konrad Foerstner
+Beatrice Alex and Clare Llewellyn
 
 ## Library Carpentry
 

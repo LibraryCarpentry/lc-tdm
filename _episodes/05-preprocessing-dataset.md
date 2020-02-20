@@ -16,9 +16,16 @@ keypoints:
 
 Text data comes in different forms.  You might want to analyse a document in one file or an entire collection of documents (a corpus) stored in multiple files.  In this part of the lesson we will show you how to load a single document and how to load the text of an entire corpus into Python for further analysis.
 
-Firstly, please download a data set (and make a note of where it is saved).  We will use the Medical History of British India collection provided by the [National Libarry of Scotland](https://www.nls.uk) as an example:
+### Download some data
+
+Firstly, please download a data set (and make a note of where it is saved).  We will use the Medical History of British India collection provided by the [National Library of Scotland](https://www.nls.uk) as an example:
 
 https://data.nls.uk/data/digitised-collections/a-medical-history-of-british-india
+
+We are only interested in the text for this course so at the bottom of the website, download the "Just the text" data at:
+https://nlsfoundry.s3.amazonaws.com/text/nls-text-indiaPapers.zip
+
+Note that this dataset requires approx. 120 MB of free file space on your computer.
 
 ### Loading and tokenising a single document
 
@@ -51,30 +58,38 @@ corpus_tokens = wordlists.words()
 print(corpus_tokens[:10])
 ```
     ['No', '.', '1111', '(', 'Sanitary', '),', 'dated', 'Ootacamund', ',', 'the']
-<!--
-~~~
-$ cd
-$ cd Desktop/shell-lesson
-$ pwd
-~~~
-{: .bash}
-~~~
-/Users/riley/Desktop/shell-lesson
-~~~
-{: .output}
 
 
-> ## Exercise title
+```python
+lower_corpus_tokens = [str(word).lower() for word in corpus_tokens]
+lower_corpus_tokens[0:10]
+```
+
+Task 3.1: Print out a larger slice of the list of tokens in the Medical History of British India collection, e.g. the first 30 tokens.
+Task 3.2: Print out the same slice but for the lower-cased version.
+
+> ## Print slice of tokens in list
 >
-> Add explanation
+> Print out a larger slice of the list of tokens in the Medical History of British India collection, e.g. the first 30 tokens.
 >
 > > ## Answer
 > > ~~~
-> > code
+> > print(corpus_tokens[:30])
 > > ~~~
 > > {: .bash}
 > {: .solution}
 {: .challenge}
--->
+
+> ## Print slice of lowercase tokens in list
+>
+> Print out the same slice but for the lower-cased version.
+>
+> > ## Answer
+> > ~~~
+> > print(lower_corpus_tokens[0:30])
+> > ~~~
+> > {: .bash}
+> {: .solution}
+{: .challenge}
 
 {% include links.md %}
