@@ -18,14 +18,20 @@ Text data comes in different forms.  You might want to analyse a document in one
 
 ### Download some data
 
-Firstly, please download a data set (and make a note of where it is saved).  We will use the Medical History of British India collection provided by the [National Library of Scotland](https://www.nls.uk) as an example:
+Firstly, please download a data set and make a note of where it is saved on your computer.  We need the path to dataset in order to load and read it for further processing.
+
+We will use the Medical History of British India collection provided by the [National Library of Scotland](https://www.nls.uk) as an example:
 
 https://data.nls.uk/data/digitised-collections/a-medical-history-of-british-india
 
-We are only interested in the text for this course so at the bottom of the website, download the "Just the text" data at:
+This dataset has been made available as part of NLS's DataFoundry platform which provides access to a number of their digitised collections.
+
+We are only interested in the text the Medical History of British India collection for this course so at the bottom of the website, download the "Just the text" data or download it directly at:
 https://nlsfoundry.s3.amazonaws.com/text/nls-text-indiaPapers.zip
 
-Note that this dataset requires approx. 120 MB of free file space on your computer.
+Note that this dataset requires approx. 120 MB of free file space on your computer once it has been unzipped.  Most computers automatically uncompress ```.zip``` files as the one you have downloaded.  If your computer does not do that then right-click on the file and click on uncompress or unzip.
+
+You should be left with a folder called ```nls-text-indiaPapers``` containing all the ```.txt``` files for this collection.  Please check that you have that on your computer and find out what its path is.  In my case it is ```/Users/balex/Downloads/nls-text-indiaPapers/```.
 
 ### Loading and tokenising a single document
 
@@ -36,7 +42,7 @@ The ```read()``` function is used to read the file. The file's content (the text
 You can then tokenise the text and convert it to lowercase. You can check it has worked by printing out a slice of the list ```lower_india_tokens```.
 
 ```python
-file = open('/Users/balex/Downloads/nls-text-indiaPapers/74457530.txt','r')
+file = open('/Users/balex/Downloads/nls-text-indiaPapers/74457530.txt','r')  # replace the path with the one on your computer
 india_raw = file.read()
 india_tokens = word_tokenize(india_raw)
 lower_india_tokens = [word.lower() for word in india_tokens]
