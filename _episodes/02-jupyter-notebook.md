@@ -52,7 +52,7 @@ This should be all you need for using a notebook in this lesson but more informa
 >
 > and press run.  
 >
-> > ## Solution
+> > ## Answer
 > >
 > > The output of your code appears below the cell.
 > >

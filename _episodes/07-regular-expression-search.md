@@ -68,7 +68,7 @@ Regural expressions can be very specific and we will not cover them in detail he
      '24-pergunnahs',
      '1875.-patches']
 
-> ## Task: Search for specific tokens using regular expressions 
+> ## Task: Search for specific tokens using regular expressions
 >
 > Search for all tokens starting with the string "man" or "men"
 >
