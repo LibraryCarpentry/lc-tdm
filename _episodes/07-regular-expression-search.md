@@ -1,5 +1,5 @@
 ---
-title: "Searching text using regular expressions"
+title: "Searching Text using Regular Expressions"
 teaching: 0
 exercises: 0
 questions:

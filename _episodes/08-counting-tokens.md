@@ -1,5 +1,5 @@
 ---
-title: "Counting tokens in text"
+title: "Counting Tokens in Text"
 teaching: 0
 exercises: 0
 questions:

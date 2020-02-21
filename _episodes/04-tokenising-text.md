@@ -1,5 +1,5 @@
 ---
-title: "Tokenising text"
+title: "Tokenising Text"
 teaching: 0
 exercises: 0
 questions:
