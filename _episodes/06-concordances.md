@@ -91,17 +91,17 @@ You can specify the number of lines using an additional ```lines``` parameter, e
 t.concordance('he',lines=170)
 ```
 
-<!--
-> ## Task
+> ## Task: Create a new concordance list
 >
 > Create a concordance list for a different search term, e.g. the word "great" or choose your own.
 >
-> > ## Solution
+> > ## Answer
 > >
-> > ~~~
+> > ~~~python
 > > t.concordance('great')
 > > ~~~
+> >
 > {: .solution}
-{: .challenge}-->
+{: .challenge}
 
 {% include links.md %}

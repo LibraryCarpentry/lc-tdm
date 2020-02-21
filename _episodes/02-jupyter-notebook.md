@@ -41,7 +41,7 @@ You can see the first cell in your new notebook.  You can enter python code into
 
 This should be all you need for using a notebook in this lesson but more information on how to use Jupyter Notebook and how to store a notebook can be found in this Data Carpentries [Overview of Jupyter Notebook](https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/).
 
-> ## Testing it works
+> ## Task: Testing it works
 >
 > To check that it works, tell the notebook to print the string "Works!" by typing the following code into the cell:
 >

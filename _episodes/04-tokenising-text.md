@@ -66,7 +66,7 @@ lower_humpty_tokens[0:6]
 ```
     ['humpty', 'dumpty', 'sat', 'on', 'a', 'wall']
 
-> ## Printing token in list
+> ## Task: Printing token in list
 >
 > Print the 13th token of the nursery rhyme (remember that a list index starts with 0).
 >
@@ -75,8 +75,6 @@ lower_humpty_tokens[0:6]
 > > print(lower_humpty_tokens[12])
 > > ~~~
 > >     fall
->
->
 > {: .solution}
 {: .challenge}
 

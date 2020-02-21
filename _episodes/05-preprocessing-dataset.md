@@ -70,30 +70,27 @@ lower_corpus_tokens = [str(word).lower() for word in corpus_tokens]
 lower_corpus_tokens[0:10]
 ```
 
-Task 3.1: Print out a larger slice of the list of tokens in the Medical History of British India collection, e.g. the first 30 tokens.
-Task 3.2: Print out the same slice but for the lower-cased version.
-
-> ## Print slice of tokens in list
+> ## Task 1: Print slice of tokens in list
 >
 > Print out a larger slice of the list of tokens in the Medical History of British India collection, e.g. the first 30 tokens.
 >
 > > ## Answer
-> > ~~~
+> > ~~~python
 > > print(corpus_tokens[:30])
 > > ~~~
-> > {: .bash}
+> >
 > {: .solution}
 {: .challenge}
 
-> ## Print slice of lowercase tokens in list
+> ## Task 2: Print slice of lowercase tokens in list
 >
 > Print out the same slice but for the lower-cased version.
 >
 > > ## Answer
-> > ~~~
+> > ~~~python
 > > print(lower_corpus_tokens[0:30])
 > > ~~~
-> > {: .bash}
+> >
 > {: .solution}
 {: .challenge}
 

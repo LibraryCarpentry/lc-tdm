@@ -68,28 +68,17 @@ Regural expressions can be very specific and we will not cover them in detail he
      '24-pergunnahs',
      '1875.-patches']
 
-<!--
-> ## Searching for specific tokens
+> ## Task: Search for specific tokens using regular expressions 
 >
 > Search for all tokens starting with the string "man" or "men"
 >
-> ~~~
-> maen_strings=[w for w in lower_india_tokens if re.search('m[ae]n', w)]
-> print(maen_strings)
-> ~~~
-> {: .source}
->
-> more description
->
-> > ## Solution
+> > ## Answer
+> > ~~~python
+> > maen_strings=[w for w in lower_india_tokens if re.search('m[ae]n', w)]
+> > print(maen_strings)
+> > ~~~
 > >
-> > description of Solution
-> >
-> >```
-> > output (e.g.)
-> >```
-> > {: .output}
 > {: .solution}
-{: .challenge}-->
+{: .challenge}
 
 {% include links.md %}

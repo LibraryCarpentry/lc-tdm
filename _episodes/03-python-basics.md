@@ -208,9 +208,8 @@ for key, value in pets.items():
     dogs 24
     mice 33
 
-__Task 1.2: Create a list containing different first names, iterate through them .__
 
-> ## Printing text
+> ## Task 1: Printing text
 >
 > Print a bit of text of your choice using print()
 >
@@ -222,7 +221,7 @@ __Task 1.2: Create a list containing different first names, iterate through them
 > {: .solution}
 {: .challenge}
 
-> ## Create a list
+> ## Task 2: Create a list
 >
 > Create a list containing different first names, iterate through them
 >
