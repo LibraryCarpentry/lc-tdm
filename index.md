@@ -3,7 +3,7 @@ layout: lesson
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
-This text and data mining carpentries lesson is for beginners and scheduled to run over two days.  It is targeted at people with no or little prior expertise in text mining who want to know how to be able to manipulate and analyse text in different ways.
+This text and data mining carpentries lesson is for beginners and scheduled to run over two days.  It is targeted at people with no or little prior expertise in text mining who want to know how to be able to manipulate and analyse text in different ways and how to visualise the results.
 
 <!-- this is an html comment -->
 
