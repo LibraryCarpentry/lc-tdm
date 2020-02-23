@@ -20,11 +20,13 @@ Text data comes in different forms.  You might want to analyse a document in one
 
 Firstly, please download a dataset and make a note of where it is saved on your computer.  We need the path to dataset in order to load and read it for further processing.
 
-We will use the Medical History of British India collection provided by the [National Library of Scotland](https://www.nls.uk) as an example:
+We will use the [Medical History of British India](https://data.nls.uk/data/digitised-collections/a-medical-history-of-british-india/) collection provided by the [National Libarry of Scotland](https://www.nls.uk) as an example:
 
-[https://data.nls.uk/data/digitised-collections/a-medical-history-of-british-india](https://data.nls.uk/data/digitised-collections/a-medical-history-of-british-india)
+<img src="../fig/mhbi.png" width="700">
 
-This dataset has been made available as part of NLS's DataFoundry platform which provides access to a number of their digitised collections.
+> This dataset forms the first half of the Medical History of British India collection, which itself is part of the broader India Papers collection held by the Library. A Medical History of British India consists of official publications varying from short reports to multi-volume histories related to disease, public health and medical research between circa 1850 to 1950. These are historical sources for a period which witnessed the transition from a humoral to a biochemical tradition, which was based on laboratorial science and document the important breakthroughs in bacteriology, parasitology and the developments of vaccines in a colonial context.
+
+This collection has been made available as part of NLS's DataFoundry platform which provides access to a number of their digitised collections.
 
 We are only interested in the text the Medical History of British India collection for this course so at the bottom of the website, download the "Just the text" data or download it directly [here](https://nlsfoundry.s3.amazonaws.com/text/nls-text-indiaPapers.zip).
 

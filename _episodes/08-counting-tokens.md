@@ -14,7 +14,7 @@ keypoints:
 
 ## Counting tokens in text
 
-You can also do other useful things like count the number of tokens in a text, determine the number and percentage count of particular tokens and plot the count distributions as a graph. To do this we have to import the ```FreqDist``` class from the NLTK ```probability``` package.  When calling this class list of tokens from a text or corpus needs to be specified as a parameter in brackets.
+You can also do other useful things like count the number of tokens in a text, determine the number and percentage count of particular tokens and plot the count distributions as a graph. To do this we have to import the ```FreqDist``` class from the NLTK ```probability``` package.  When calling this class, a list of tokens from a text or corpus needs to be specified as a parameter in brackets.
 
 ```python
 from nltk.probability import FreqDist
