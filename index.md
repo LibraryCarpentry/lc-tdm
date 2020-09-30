@@ -5,7 +5,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 ---
 This text and data mining carpentries lesson is for beginners and scheduled to run over two days.  It is targeted at people with no or little prior expertise in text mining who want to know how to be able to manipulate and analyse text in different ways and how to visualise the results.
 
-If you use any of the material of course for you own purposes, please cite the following reference:
+If you use any of the material in this course for you own purposes, please cite the following reference:
 
 Alex, Beatrice and Llewellyn, Clare. (2020) Library Carpentry: Text & Data Mining. Centre for Data, Culture & Society, University of Edinburgh. http://librarycarpentry.org/lc-tdm/.
 
