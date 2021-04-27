@@ -3,7 +3,7 @@ title: "Searching Text using Regular Expressions"
 teaching: 0
 exercises: 0
 questions:
-- "How can I search for tokens in text more flexibly? For example, to find all all mentions of ```woman``` and ```women```."
+- "How can I search for tokens in text more flexibly? For example, to find all mentions of ```woman``` and ```women```."
 objectives:
 - "Learn how to search for tokens in a data set using regular expressions"
 keypoints:
