@@ -56,7 +56,7 @@ cloud = WordCloud(max_font_size=80,colormap="hsv").generate_from_frequencies(dic
 plt.figure(figsize=(16,12))
 plt.imshow(cloud, interpolation='bilinear')
 plt.axis('off')
-plt.show()s
+plt.show()
 ```
   ![png](../fig/wordcloud0.png)
 
