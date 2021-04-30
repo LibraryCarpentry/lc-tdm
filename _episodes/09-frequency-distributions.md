@@ -102,7 +102,7 @@ plt.axis("off")
 > > numbers=list(map(str, range(0,1000000)))
 > > otherTokens=["..."]
 > > remove_these = set(stopwords.words('english') + list(string.punctuation) + numbers + otherTokens)
-> > filtered_text = [w for w in lower_india_tokens if not w in remove_these]
+> > filtered_text_new = [w for w in lower_india_tokens if not w in remove_these]
 > > fdist_filtered = FreqDist(filtered_text_new)
 > > fdist_filtered.plot(30,title='Frequency distribution for 30 most common tokens in our text collection (excluding stopwords, punctuation, numbers etc.)')
 > > ~~~
