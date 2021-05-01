@@ -21,7 +21,7 @@ keypoints:
 
 Python is a programming language. We will use this as a way to interact with and analyse text documents. We can use Python either through the command line in your terminal window, by writing Python scripts or via Jupyter Notebook. In this lesson we will be using it via Jupyter Notebook.
 
-This introduction to Python is important for understanding all the steps that follow in the text mining lesson.  If you are new to programming it may not be entirely clear why you need to learn Python first. Bare with us, you will soon understand why it is needed and is useful and it will help to speed things up later-on.
+This introduction to Python is important for understanding all the steps that follow in the text mining lesson.  If you are new to programming it may not be entirely clear why you need to learn Python first. Bear with us, you will soon understand why it is needed and is useful and it will help to speed things up later-on.
 
 We will limit this introduction to the level of Python required for this lesson for a more in-depth introduction to Python, we'd recommend the following [Library Carpentries lesson]{https://librarycarpentry.org/lc-python-intro/}.
 
@@ -38,7 +38,7 @@ print("Hello World")
 
 In python, you can assign information to variables. A variable is a memory location used to hold data which has a name associated with it.  You can think of it like a box which can contain information and which also has a name, so you can refer to it in code.
 
-For example we can put the string "text mining" into the box named "text".
+For example, we can put the string "text mining" into the box named "text".
 
 We do that by assigning the string to the variable named text. When assigning variables in python, the name of the variable is on the left followed by an equal sign and the value of the variable, as follows:
 
@@ -54,7 +54,7 @@ print(text)
 ```
     Text Mining
 
-In addition to strings we can assign other data types such as numbers and floats to variables.
+In addition to strings, we can assign other data types such as numbers and floats to variables.
 
 ```python
 text = "Text Mining"  # An example of a string
@@ -78,7 +78,7 @@ Lists are created by typing comma separated values inside square brackets.  You 
 
 
 ```python
-sentence = ['Just', 'think', 'happy','thoughts', 'and', 'you', '’ll', 'smile', '.']
+sentence = ['Just', 'think', 'happy', 'thoughts', 'and', 'you', '’ll', 'smile', '.']
 print(sentence) # print all elements
 
 ```
@@ -87,7 +87,7 @@ print(sentence) # print all elements
 The list holds an ordered sequence of elements (in this case words or punctuation) and each element can be accessed using its index or position in the list.  To do that you need to specify the index.
 
 > ## Note
-> Python indexes start with 0 instead of 1.  So the first element in the list is called using a 0 in square brackets after the name of the list
+> Python indexes start with 0 instead of 1.  So, the first element in the list is called using a 0 in square brackets after the name of the list
 {: .callout}
 
 ```python
@@ -95,7 +95,7 @@ print(sentence[0]) # print the first element
 ```
     Just
 
-You can also print a slice of the list (e.g. the first two elements of the list):
+You can also print a slice of the list (e.g., the first two elements of the list):
 
 ```python
 sentence[0:2]
@@ -130,7 +130,7 @@ print(sentence)
 
 A for loop can be used to access the elements in a list one at a time.
 
-The syntax for a for loop starts with ```for x in y:``` where y is the thing you want to loop through (in our case a list) and x is a new variable which each element of y is assigned to while looping.  So when looping, x keeps getting overwritten by the next element of y until the end of y is reached.
+The syntax for a for loop starts with ```for x in y:``` where y is the thing you want to loop through (in our case a list) and x is a new variable which each element of y is assigned to while looping. So, when looping, x keeps getting overwritten by the next element of y until the end of y is reached.
 
 The code after the initial line then specifies what is to be done with each element of y. This needs to be indented using a tab so that Python knows the instructions that follow need to be executed for each element.
 
@@ -158,7 +158,7 @@ An if/elif/else statement can be used to condition some code on something being 
 
 If the test that follows the statement is true, then its body (i.e., the lines indented underneath it) are executed.  If the test is false then the indented code is not executed and the programme continues.
 
-In the following example, the code specifies that if the sentence list contains 5 elements then print text to confirm that, else if the list contains more than 5 elements then print text to say it does.  If neither of those two conditions are true (else) which means the sentence list contains less than 5 elements, then print something saying that is the case.  Finally print the entire list to show which elements it contains.  The last line of code is not indented as it is supposed to run independent of the if/elif/else statements.
+In the following example, the code specifies that if the sentence list contains 5 elements, then print text to confirm that, else if the list contains more than 5 elements then print text to say it does.  If neither of those two conditions are true (else) which means the sentence list contains less than 5 elements, then print something saying that is the case.  Finally print the entire list to show which elements it contains.  The last line of code is not indented as it is supposed to run independent of the if/elif/else statements.
 
 We use the ```len()``` function to count the length of the list which returns an integer and we also use operators as part of the tests (```==``` for is equal to and ```>``` for is greater than).
 
@@ -190,7 +190,7 @@ print(colour_tuple[1]) # prints the 2nd entry in the tuple
 
 A dictionary works a lot like a list but it contains 'key/value' pairs. A key acts as a name for a single or a set of values in the dictionary.
 
-In the example below the values are integers (e.g. counts).  So a dictionary could be used to store the number of times (the value) a word (the key) occurs in a text.
+In the example below the values are integers (e.g., counts). So, a dictionary could be used to store the number of times (the value) a word (the key) occurs in a text.
 
 ```python
 pets = {'cats':45, 'dogs':24, 'mice':33}
