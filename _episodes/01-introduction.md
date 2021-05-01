@@ -27,7 +27,7 @@ __String:__ a group of characters comprised of words, letters, numbers, punctuat
 
 __Integer:__ a positive or negative whole number without a decimal point.
 
-__Stop words:__ generally the most common words in a language (e.g. "the", "of", "and" etc.) which are sometimes filtered out during text analysis in order to focus on the vocabulary that conveys more of the content of a piece of text.
+__Stop words:__ generally, the most common words in a language (e.g. "the", "of", "and" etc.) which are sometimes filtered out during text analysis in order to focus on the vocabulary that conveys more of the content of a piece of text.
 
 __Document:__ a single file containing some text.
 
