@@ -19,7 +19,7 @@ This course run is using [Jupyter Notebook](https://jupyter.org). It is an open-
 The start the lesson within a Jupyter Notebook you first need to start a Jupyter Notebook server.  To do that you need to open a terminal window and type:
 
 ~~~
-jupyter notebook
+Jupyter notebook
 ~~~
 {: .bash}
 
@@ -29,7 +29,7 @@ You can learn how to open a terminal window on your computer in the setup instru
 
 ### Creating a new notebook
 
-To create a new notebook you need to select a location for it on your computer via the browser window that opened up and click on "New" in the top right corner of the browser.  You also need to select Python 3 to do so.
+To create a new notebook, you need to select a location for it on your computer via the browser window that opened up and click on "New" in the top right corner of the browser.  You also need to select Python 3 to do so.
 
 ![Starting a new notebook](../fig/start-notebook.png)
 
