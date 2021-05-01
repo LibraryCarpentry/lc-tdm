@@ -9,13 +9,13 @@ objectives:
 - "Learn how to tokenise text"
 keypoints:
 - "Tokenisation means to split a string into separate words and punctuation, for example to be able to count them."
-- "Text can be tokenised using the a tokeniser, e.g. the punkt tokeniser in NLTK."
+- "Text can be tokenised using the a tokeniser, e.g., the punkt tokeniser in NLTK."
 ---
 ## Tokenising text
 
 ### But first ... importing packages
 
-Python has a selection of pre-written code that can be used. These come as in built functions and a library of packages of modules. We have already used the in-built function ```print()```.  In-built functions are available as soon as you start python. There is also a (software) library of modules that contain other functions, but these modules need to be imported.
+Python has a selection of pre-written code that can be used. These come as in-built functions and a library of packages of modules. We have already used the in-built function ```print()```. In-built functions are available as soon as you start python. There is also a (software) library of modules that contain other functions, but these modules need to be imported.
 
 For this course we need to import a few libraries into Python. To do this, we need to use the ```import``` command.
 
@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 ```
 
 ### Tokenising a string
-In order to process text we need to break it down into tokens.  As we explained at the start, a token is a letter, word, number, or punctuation which is contained in a string.
+In order to process tex,t we need to break it down into tokens. As we explained at the start, a token is a letter, word, number, or punctuation which is contained in a string.
 
 To tokenise we first need to import the ```word_tokenize``` method from the ```tokenize``` package from NLTK which allows us to do this without writing the code ourselves.
 
