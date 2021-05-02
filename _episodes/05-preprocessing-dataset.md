@@ -14,13 +14,13 @@ keypoints:
 
 ## Data Preparation
 
-Text data comes in different forms.  You might want to analyse a document in one file or an entire collection of documents (a corpus) stored in multiple files.  In this part of the lesson we will show you how to load a single document and how to load the text of an entire corpus into Python for further analysis.
+Text data comes in different forms.  You might want to analyse a document in one file or an entire collection of documents (a corpus) stored in multiple files.  In this part of the lesson, we will show you how to load a single document and how to load the text of an entire corpus into Python for further analysis.
 
 ### Download some data
 
 Firstly, please download a dataset and make a note of where it is saved on your computer.  We need the path to dataset in order to load and read it for further processing.
 
-We will use the [Medical History of British India](https://data.nls.uk/data/digitised-collections/a-medical-history-of-british-india/) collection provided by the [National Libarry of Scotland](https://www.nls.uk) as an example:
+We will use the [Medical History of British India](https://data.nls.uk/data/digitised-collections/a-medical-history-of-british-india/) collection provided by the [National Library of Scotland](https://www.nls.uk) as an example:
 
 <img src="../fig/mhbi.png" width="700">
 
@@ -55,7 +55,7 @@ lower_india_tokens[0:10]
 
 We can do the same for an entire collection of documents (a corpus).  Here we choose a collection of raw text documents in a given directory.  We will use the entire Medical History of British India collection as our dataset.
 
-To read the text files in this collection we can use the ```PlaintextCorpusReader``` class provided in the ```corpus``` package of NLTK.  You need to specify the collection directory name and a wildcard for which files to read in the directory (e.g. ```.*``` for all files) and the text encoding of the files (in this case ```latin1```).  Using the ```words()``` method provided by NLTK, the text is automatically tokenised and stored in a list of words. As before, we can then lowercase the words in the list.
+To read the text files in this collection we can use the ```PlaintextCorpusReader``` class provided in the ```corpus``` package of NLTK.  You need to specify the collection directory name and a wildcard for which files to read in the directory (e.g., ```.*``` for all files) and the text encoding of the files (in this case ```latin1```).  Using the ```words()``` method provided by NLTK, the text is automatically tokenised and stored in a list of words. As before, we can then lowercase the words in the list.
 
 ```python
 from nltk.corpus import PlaintextCorpusReader
@@ -74,7 +74,7 @@ lower_corpus_tokens[0:10]
 
 > ## Task 1: Print slice of tokens in list
 >
-> Print out a larger slice of the list of tokens in the Medical History of British India collection, e.g. the first 30 tokens.
+> Print out a larger slice of the list of tokens in the Medical History of British India collection, e.g., the first 30 tokens.
 >
 > > ## Answer
 > > ~~~python
