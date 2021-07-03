@@ -61,7 +61,7 @@ You can lowercase the strings in the list by going through it and calling the ``
 
 ```python
 lower_humpty_tokens = [word.lower() for word in humpty_tokens]
-# Show first 10 entries of the lowercased tokens list
+# Show first 6 entries of the lowercased tokens list
 lower_humpty_tokens[0:6]
 ```
     ['humpty', 'dumpty', 'sat', 'on', 'a', 'wall']
