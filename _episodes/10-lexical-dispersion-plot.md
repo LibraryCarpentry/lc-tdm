@@ -4,7 +4,7 @@ teaching: 0
 exercises: 0
 questions:
 - "How can I measure how frequently a word appears across the parts of a corpus?"
-- "How can I plot the occurrences of a word and how many words from the beginning of the corpus it appears?"
+- "How can I plot the occurrences of a word and find out after how many words from the beginning of the corpus, does this word appear?"
 objectives:
 - "Learn how to plot the occurances of specific words as they appear across a document or a corpus."
 - "We will use the US Presidential Inaugural Addresses and which are provided with NLTK."
@@ -15,7 +15,7 @@ keypoints:
 
 ## Lexical Dispersion Plot
 
-We can plot lexical dispersion of particular tokens. Lexical dispersion is a measure of how frequently a word appears across the parts of a corpus. This plot notes the occurrences of a word and how many words from the beginning of the corpus it appears (word offsets). This is particularly useful for a corpus that covers a longer time period and for which you want to analyse how specific terms were used more or less frequently over time.
+We can plot lexical dispersion of particular tokens. Lexical dispersion is a measure of how frequently a word appears across the parts of a corpus. This plot notes the occurrences of a word and after how many words from the beginning of the corpus, this word appears (word offsets). This is particularly useful for a corpus that covers a longer time period and for which you want to analyse how specific terms were used more or less frequently over time.
 
 To create a lexical disperson plot, you will first load and import a different corpus, the inaugural corpus which are all US Presidential Inaugural Addresses and which are provided with NLTK.
 
