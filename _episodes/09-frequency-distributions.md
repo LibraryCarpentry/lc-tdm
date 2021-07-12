@@ -99,14 +99,14 @@ plt.axis("off")
 > > ## Answer
 > >
 > > ~~~python
-> > numbers=list(map(str, range(0,1000000)))
-> > otherTokens=["..."]
+> > numbers = list(map(str, range(0,1000000)))
+> > otherTokens = ["...", "one", "two", "three"]
 > > remove_these = set(stopwords.words('english') + list(string.punctuation) + numbers + otherTokens)
-> > filtered_text = [w for w in lower_india_tokens if not w in remove_these]
+> > filtered_text_new = [w for w in lower_india_tokens if not w in remove_these]
 > > fdist_filtered = FreqDist(filtered_text_new)
-> > fdist_filtered.plot(30,title='Frequency distribution for 30 most common tokens in our text collection (excluding stopwords, punctuation, numbers etc.)')
+> > fdist_filtered.plot(30,title = 'Frequency distribution for 30 most common tokens in our text collection (excluding stopwords, punctuation, numbers etc.)')
 > > ~~~
-> > ![Frequency distribution for 30 most common tokens in our text collection (excluding stopwords, punctuation, numbers etc.)](../fig/fdist2.png)
+> > ![Frequency distribution for 30 most common tokens in our text collection (excluding stopwords, punctuation, numbers etc.)](../fig/fdist2_updated.png)
 > {: .solution}
 {: .challenge}
 
@@ -116,18 +116,18 @@ plt.axis("off")
 > Redraw the word cloud with the updated ```filtered_text``` variable (after removing the strings in Task 1).
 >
 > > ## Answer
-> >
 > > ~~~python
-> > dictionary=Counter(filtered_text)
 > > import matplotlib.pyplot as plt
 > > from wordcloud import WordCloud
-> > cloud = WordCloud(max_font_size=80,colormap="hsv").generate_from_frequencies(dictionary)
-> > plt.figure(figsize=(16,12))
-> > plt.imshow(cloud, interpolation='bilinear')
+> > 
+> > dictionary = Counter(filtered_text_new)
+> > cloud = WordCloud(max_font_size = 80, colormap = "hsv").generate_from_frequencies(dictionary)
+> > plt.figure(figsize = (16, 12))
+> > plt.imshow(cloud, interpolation = 'bilinear')
 > > plt.axis('off')
 > > plt.show()
 > > ~~~
-> > ![New word cloud](../fig/wordcloud1.png)
+> > ![New word cloud](../fig/wordcloud1_updated.png)
 > {: .solution}
 {: .challenge}
 
