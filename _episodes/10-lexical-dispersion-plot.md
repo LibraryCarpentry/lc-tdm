@@ -44,4 +44,4 @@ targets=['great','good','tax','work','change']
 dispersion_plot(inaugural_texts, targets, ignore_case=True, title='Lexical Dispersion Plot')
 ```
 
-<img src="../fig/output_9_0.png" width="700">
+<img src="../fig/lexicaldispersion.png" width="700">
