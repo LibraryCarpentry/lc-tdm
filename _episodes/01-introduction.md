@@ -15,7 +15,10 @@ keypoints:
 Welcome to this hands-on lesson to learn some text and data mining skills. We will first run through some of the basics that you will need when exploring and analysing text.
 
 ## What is Text Mining?
-FIXME
+
+Text mining, or text analysis, is a method using natural language processing (NLP) and computer science to transform unstructured data or text from documents, websites or databases into a more manageable structured corpus suitable for using machine learning (ML) algorithms. The purpose is to gain a deeper understanding and discover patterns in the content being analysed.
+According to [Wikipedia](https://en.wikipedia.org/wiki/Text_mining) text mining involves discovery by computer of new, previously unknown information, by automatically extracting information from different written resources. 
+Text mining tasks include a broad range of methods, from text categorization, text clustering, concept extraction and even production of granular taxonomies or document summarization.
 
 ## Terminology
 
